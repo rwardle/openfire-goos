@@ -4,10 +4,10 @@ Dockerfile to create a Docker container image for Openfire that is suitable to u
 
 Based on [https://github.com/sameersbn/docker-openfire](https://github.com/sameersbn/docker-openfire).
 
-Changes to base configuration:
+The Openfire data directory is initialised with these configuration changes:
 
 * Set XMPP domain to 'localhost'.
 * Set Resource Conflict policy to 'Never kick'.
-* Created user 'sniper'.
-* Created user 'auction-item-54321'.
-* Created user 'auction-item-65432'.
+* Create user 'sniper'.
+* Create user 'auction-item-54321'.
+* Create user 'auction-item-65432'.
